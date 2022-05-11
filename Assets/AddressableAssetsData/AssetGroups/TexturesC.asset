@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: TexturesC
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets2
+  m_GroupName: TexturesC
   m_Data:
     m_SerializedData: []
   m_GUID: 9a53462ba365340e8b791bd244be1f79
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: f131ef7a321234d1791d62e19aaa67a4
+    m_Address: Assets/Textures/5MB_Texture.jpeg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 760e3483ead774e49be0e278c1d29f17, type: 2}
   m_SchemaSet:

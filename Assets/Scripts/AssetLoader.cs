@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
@@ -9,19 +10,27 @@ public class AssetLoader : MonoBehaviour
     [SerializeField]
     private AssetReference[] m_AssetsToLoad;
 
-    private Sprite[] m_Sprites;
-
+    [SerializeField]
     private Image m_Image;
+    
+    [SerializeField]
+    private TextMeshProUGUI m_DebugText;
+
+    private Sprite[] m_Sprites;
     
     private int m_CurrentTexturesLoaded = -1;
     
-    private Text m_DebugText;
-
     private float m_LoadingCooldown = 1.0f;
 
     private void Start()
     {
         Caching.ClearCache();
+        m_Sprites = new Sprite[m_AssetsToLoad.Length];   
+        Invoke("StartInit", m_LoadingCooldown);
+    }
+
+    private void StartInit()
+    {
         Addressables.InitializeAsync().Completed += InitComplete;
     }
 
