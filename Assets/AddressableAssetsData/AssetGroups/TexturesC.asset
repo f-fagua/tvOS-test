@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TexturesC
+  m_EditorClassIdentifier: 
+  m_GroupName: Packed Assets2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9a53462ba365340e8b791bd244be1f79
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 760e3483ead774e49be0e278c1d29f17, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b4cc8c306857b451287b18e5f7db2988, type: 2}
+    - {fileID: 11400000, guid: bda87039d5ef74cc1be0055aaa015b89, type: 2}
